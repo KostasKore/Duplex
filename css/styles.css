@@ -1,0 +1,114 @@
+*{margin:0;padding:0;box-sizing:border-box;} 
+body{font-family:Arial}
+
+
+/*container*/	
+.container{width:90%;margin:0 auto}
+
+/*header black*/
+	header{background:black;}
+	.btn1{float:right;font-size:25px;color:white;cursor:pointer;display:none;position:absolute;right:4%;top:0}
+
+
+/*contact*/
+
+.contact{padding:5px 0 0 100px;float:left;}
+.contact a{color:white;font-size:12px;text-decoration:none;}
+.contact i{color:orange;padding:3px 0}
+.icons{float:right;margin:0 auto;margin-right:10%}
+.icons i{color:orange;margin-right:20px;margin-top:5px}
+.icons a{text-decoration:none;margin-right:5px;}
+
+
+/*clear*/
+.clear{clear:both}
+
+
+/*Logo*/
+
+.logo{float:left;font-size:20px;padding:40px 0 0 100px}
+.logo p{color:white;}
+nav{float:right;padding:40px 0 0 0;padding-right:10%}
+nav a{color:white;text-decoration:none;padding-left:30px}
+nav ul li{float:left;}
+
+
+/*image*/
+.image{height:20%}
+.image-box{width:100%}
+.image-box img{width:100%}
+
+/*about me*/
+h4{color:orange;margin-bottom:20px;margin-top:50px}
+h2{margin-bottom:20px}
+.about-text p{font-size:14px;text-align:center;}
+
+
+
+
+/*Texts*/
+
+.icon-box{float:left;width:33%;margin-top:7%;text-align:left;padding-left:100px}
+.icon-box i{font-size:70px;}
+.icon-box h3{padding-top:5px}
+.icon-box p{font-size:13px;line-height:20px;color: #959595;padding-top:2px;text-align:justify}
+
+
+/*Pictures*/
+.images-grid{width:33%;box-sizing:border-box;float:left;margin-top:50px;padding:5px;}
+			
+.images-grid img{width:100%;display:block}
+
+.color{background:rgba(255, 163, 26, 0.7);width:100%;height:100%;
+		  position:absolute;top:100%;left:0;
+		  transition:all 1s}
+
+.images-grid:hover .color{top:0%;left:0%}
+
+.text h3{margin-top:60px;margin-bottom:30px;text-decoration:underline;font-size:13px}
+.text h2{font-size:16px}
+.text p{font-size:12px;margin-bottom:10px;color:#959595}
+.text a{text-decoration:none;font-size:13px}
+
+/*Why*/
+
+.why{margin-top:100px}
+.sofa{width:50%;box-sizing:border-box;float:left;}
+.sofa img{width:100%;}
+
+.why-us{background:black;color:white;padding-top:20px;}
+.why-us h2{text-align:center}
+.why-us h3{text-align:center}
+.why-icon{padding-top:20px}
+.why-icon i{float:left;color:orange;font-size:20px;padding-left:30px;}
+.why-icon p{line-height:40px}
+.par{text-align:justify;}
+
+
+@media screen and (max-width:940px) {
+
+.btn1{display:block}
+.logo{float:right}
+header{padding-bottom:1px}
+nav{display:none;float:left}
+nav ul li{float:none;}
+.contact{text-align:center;float:none}
+.icons{display:none}
+.icon i{font-size:30px}
+.icon-box{float:left;width:33%;margin-top:7%;text-align:left;padding-left:20px}
+.sofa{float:none;width:100%}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
